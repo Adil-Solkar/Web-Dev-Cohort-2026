@@ -99,6 +99,7 @@ body {
 
 .hero-container {
     padding-top: 112px;
+    padding-bottom: 62px;
 }
 
 .hero-content {
@@ -155,20 +156,40 @@ body {
     position: absolute;
     top: 45%;
     left: 60%;
-    border-radius: 5%;
+    border-radius: 3%;
 }
 
+/* Company Logos */
 
+.company-logos-section-heading {
+    font-size: .875rem;
+    text-align: center;
+    margin-bottom: 22.400px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+}
 
+.company-logos {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-bottom: 33px;
+}
 
+.company-logo {
+    background-color: #1b1913;
+    border-radius: 4px;
+    width: 153px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+section {
+    border: 1px solid red;
+}
 
-
-
-
-
-
-
-
-/* debug */
 
