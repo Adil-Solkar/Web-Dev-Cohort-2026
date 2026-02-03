@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'CursorGothic';
+    src: url('./assets/fonts/CursorGothic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #14120b;
+    color: #edecec;
+    padding: 0 1.25em;
+    font-family: 'CursorGothic',Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 0 5.625rem;
+}
+
+/*---------------------- nav section ---------------------------------------- */
+/* nav bar sticky or fixed? */
+
+.logo-container {
+    width: 95px;
+}
+
+.logo-container > img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.nav-container, .nav-links {
+    display: flex;
+}
+
+.nav-container {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+    font-size: .875rem;
+}
+
+.nav-links > li {
+    list-style: none;
+}
+
+.nav-link {
+    color: inherit;
+    text-decoration: none;
+    padding: 5px 15px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #edececbf;
+}
+
+.nav-btn > button {
+    padding: 5px 10px;
+    border-radius: 3.40282e38px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.sign-in-btn {
+    border: 1px solid #edecec33;
+    background-color: #1b1913;
+    color: #edecec;
+    margin-right: 5px;
+}
+
+.sign-in-btn:hover,
+.sign-in-btn:focus {
+    background-color: #201e18;
+}
+
+.download-btn {
+    border: 1px solid #edecec;
+    background-color: #edecec;
+    color: #14120b;
+}
+
+.download-btn:hover,
+.download-btn:focus {
+    background-color: #d7d6d5;   
+}
+
+/* ------------------------- hero section --------------------------------------- */
+
+.hero-container {
+    padding-top: 112px;
+}
+
+.hero-content {
+    margin-bottom: 56px;
+    max-width: 65ch;
+}
+
+.hero-heading {
+    text-wrap: balance;
+    font-weight: 400;
+    font-size: 1.625rem;
+    line-height: 1.4;
+    margin-bottom: 22.4px;
+}
+
+.hero-btn {
+    border: 1px solid #edecec;
+    border-radius: 3.40282e38px;
+    cursor: pointer;
+    font-size: medium;
+    padding: 10px 21px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #d7d6d5; 
+}
+
+.hero-img-container {
+    border-radius: 5px;
+    height: 680px;
+    position: relative;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+.hero-img1 {
+    width: 75%;
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    border-radius: 10px;
+}
+
+.hero-img2 {
+    width: 30%;
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    border-radius: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* debug */
+
