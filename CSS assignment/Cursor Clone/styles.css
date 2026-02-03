@@ -188,8 +188,174 @@ body {
     align-items: center;
 }
 
-section {
+/* Products */
+
+.products {
+    padding: 67px 0;
+}
+
+
+.product-container {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    padding: 17.5px;
+    background-color: #1b1913;
+    border-radius: 4px;
+    margin-bottom: 67px;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.img-container {
+    max-width: 840px;
+    position: relative;
+    border-radius: 4px;
+}
+
+.bg-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.product-img {
+    max-width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    border-radius: 8px;
+}
+
+/*--------------------- testimonials -------------------------------*/
+
+.testimonials-heading {
+    text-align: center;
+    text-wrap: balance;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 1em;
+    margin: 0 auto;
+    margin-bottom: 62.7px;
+}
+
+.testimonial-container {
+    padding: 15px 17px 17px 17px;
+    background-color: #1b1913;
+    border-radius: 4px;
+    line-height: 1.5;
+    letter-spacing: 0.005em;
+}
+
+/* -------------------------------------product cards -----------------------------*/
+
+.cards-section {
+    padding-top: 62.7px;
+}
+
+.cards-heading {
+    font-size: 1.625rem;
+    line-height: 1.25;
+    font-weight: 400;
+    margin-bottom: .75em;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    margin-bottom: 7.8375rem;
+}
+
+.card {
+    padding: 15px 17px 17px 17px;
+    background-color: #1b1913;
+    border-radius: 4px;
+    line-height: 1.5;
+    letter-spacing: 0.005em;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #201e18;
+}
+
+.card-img-container {
+    width: 24.4375rem;
+    height: 24.4375rem;
     border: 1px solid red;
+}
+
+/*------------------------------------- changelog ---------------------------------------------*/
+
+.changelog-section {
+    margin-bottom: 7.8375rem;
+}
+
+.changelog-heading {
+    font-size: 1.625rem;
+    line-height: 1.25;
+    font-weight: 400;
+    margin-bottom: .75em;
+}
+
+.changelog-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.changelog {
+    padding: 15.9px 17.5px 20px 17.5px;
+    background-color: #1b1913;
+    width: 317px;
+}
+
+
+/*---------------------------------------------- First CTA -------------------------------*/
+
+.cta-section {
+    margin-bottom: 7.8375rem;
+}
+
+.cta-heading {
+    text-wrap: balance;
+    font-weight: 400;
+    font-size: 2.25rem;
+    margin-bottom: 22.4px;
+    width: 25ch;
+}
+
+.cta-btn {
+    font-family: inherit;
+    font-size: inherit;
+    padding: 12.480px 21.6px;
+    border: 1px solid #edecec;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 3.5em;
+}
+
+.cta-btn:hover,
+.cta-btn:focus {
+    background-color: #d7d6d5; 
+}
+
+.cta-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 
