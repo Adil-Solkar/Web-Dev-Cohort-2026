@@ -25,7 +25,16 @@ body {
 }
 
 /*---------------------- nav section ---------------------------------------- */
-/* nav bar sticky or fixed? */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #14120b;
+    padding: 0 110px;
+}
 
 .logo-container {
     width: 95px;
@@ -459,7 +468,7 @@ footer {
 .footer-nav {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .column-title {
