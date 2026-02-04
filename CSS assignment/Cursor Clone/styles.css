@@ -16,12 +16,12 @@
 body {
     background-color: #14120b;
     color: #edecec;
-    padding: 0 1.25em;
     font-family: 'CursorGothic',Arial, Helvetica, sans-serif;
 }
 
 .container {
     margin: 0 5.625rem;
+    padding: 0 1.25em;
 }
 
 /*---------------------- nav section ---------------------------------------- */
@@ -358,4 +358,127 @@ body {
     display: block;
 }
 
+/*---------------------------- highlights section------------------------------------ */
 
+.highlights-section {
+    padding: 90px 110px;
+    background-color: #1b1913;
+    display: flex;
+}
+
+.highlights-heading {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.08px;
+    align-self: flex-start;
+    flex: 1.5;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.highlights {
+    flex: 4;
+}
+
+.highlight-container {
+    width: 65%;
+    padding: 15px 17px 17px 17px;
+    background-color: #201e18;
+    cursor: pointer;
+    margin-bottom: .75em;
+    border-radius: 4px;
+}
+
+.highlight-container:hover,
+.highlight-container:focus {
+    background-color: #2e2c25;
+}
+
+.highlights > .highlight-container:nth-child(n + 3) {
+    margin-bottom: 1.25em;
+}
+
+.highlight-title {
+    color: #edecec;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.08px;
+}
+
+.highlight-content {
+    margin-bottom: 1.5em;
+    max-width: 45ch;
+}
+
+.highlight-content,
+.highlight-footer {
+    color: #edecec99;
+    letter-spacing: 0.08px
+}
+
+/*---------------------- Final CTA ------------------------------------------------ */
+
+.final-cta-container {
+    padding: 134px 0;
+    text-align: center;
+}
+
+.final-cta-container > h2 {
+    font-size: 4.5rem;
+    line-height: 1.1;
+    font-weight: 400;
+    letter-spacing: -2.16px;
+    margin-bottom: 22.4px;
+}
+
+.final-cta-container > button {
+    border: 1px solid #edecec;
+    border-radius: 3.40282e38px;
+    cursor: pointer;
+    font-size: medium;
+    padding: 10px 21px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.final-cta-container > button:hover,
+.final-cta-container > button:focus {
+    background-color: #d7d6d5; 
+}
+
+/*----------------------------------------- footer ----------------------------------------*/
+
+footer {
+    padding: 67px 110px 30px 110px;
+    background-color: #1b1913;
+}
+
+.footer-nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-bottom: 80px;
+}
+
+.column-title {
+    color: #edecec99;
+    font-size: .875rem;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    margin-bottom: .5em;
+}
+
+.link-item > a {
+    text-decoration: none;
+    color: #edecec;
+    display: inline-block;
+    padding: .35em 0;
+} 
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
