@@ -330,6 +330,8 @@ header {
     margin-bottom: .75em;
 }
 
+
+
 .cards-container {
     display: flex;
     justify-content: space-between;
@@ -350,10 +352,24 @@ header {
     background-color: #201e18;
 }
 
+.card-title {
+    font-weight: 400;
+}
+
+.card-content {
+    opacity: .6;
+    margin-bottom: 1em;
+}
+
 .card-img-container {
     width: 24.4375rem;
     height: 24.4375rem;
-    border: 1px solid red;
+    margin-top: .85em;
+}
+
+.card-img {
+    width: 100%;
+    display: block;
 }
 
 /*------------------------------------- changelog ---------------------------------------------*/
