@@ -193,7 +193,8 @@ nav {
 
 .input-container {
     background-color: rgba(238, 233, 233, 0.1);
-    border-radius: 20px;
+    border-radius: 30px;
+    padding: 5px 10px;
 }
 
 .email-input {
