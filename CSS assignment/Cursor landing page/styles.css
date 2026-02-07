@@ -104,6 +104,14 @@ header {
     background-color: #d7d6d5;   
 }
 
+.red-accent {
+    color: #f54e00;
+}
+
+.red-accent:hover {
+    color: #e04b06e7;
+}
+
 /* ------------------------- hero section --------------------------------------- */
 
 .hero-container {
@@ -206,12 +214,32 @@ header {
 
 .product-container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: .5em;
+    gap: 50px;
     padding: 17.5px;
     background-color: #1b1913;
     border-radius: 4px;
     margin-bottom: 67px;
+    cursor: pointer;
+}
+
+.product-container:hover {
+    background-color: #25231c;
+}
+
+.product-content {
+    width: 35%;
+}
+
+.product-content > p {
+    margin-bottom: 0.75em;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.content-text {
+    opacity: 0.7;
 }
 
 .row-reverse {
@@ -219,15 +247,17 @@ header {
 }
 
 .img-container {
-    max-width: 840px;
+    width: 840px;
     position: relative;
     border-radius: 4px;
+    width: 63%;
 }
 
 .bg-img {
     width: 100%;
     height: 100%;
     border-radius: 4px;
+    object-fit: cover;
 }
 
 .product-img {
@@ -264,6 +294,27 @@ header {
     border-radius: 4px;
     line-height: 1.5;
     letter-spacing: 0.005em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    margin-top: 2.5em;
+    gap: 15px;
+}
+
+.testimonial-author > img {
+    object-fit: cover;
+    border-radius: 5px;
+    width: 40px;
+}
+
+.author-info > .designation {
+    opacity: .7;
 }
 
 /* -------------------------------------product cards -----------------------------*/
