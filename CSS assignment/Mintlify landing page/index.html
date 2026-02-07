@@ -9,6 +9,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles.css">
     <title>Mintlify - Landing page</title>
 </head>
@@ -39,14 +40,15 @@
             <div class="hero-content">
                 <h1>The Intelligent Knowledge Platform</h1>
                 <h2>Helping teams create and maintain world-class documentation built for both humans and AI</h2>
-                <div>
-                    <input type="text" placeholder="Email address" pattern="" required>
-                    <button class="btn">Start now</button>
+                <div class="input-container">
+                    <input class="email-input" type="text" placeholder="Email address" pattern="" required>
+                    <button class="email-submit-btn">Start now</button>
                 </div>
                 <div class="hero-anchor-link">
                     <a href="#">
-                        <span>NEW</span>
-                        Self updating docs with agents suggestions >
+                        <span class="new-container">NEW</span>
+                        Self updating docs with agents suggestions 
+                        <span class="arrow-container">></span>
                     </a>
                 </div>
                 <div class="hero-img-container">
@@ -57,14 +59,14 @@
 
 
         <section class="partners-section">
+            <img class="partner-logo" src="./assets/An_logo.png" alt="anthropic logo">
+            <img class="partner-logo" src="./assets/Coinbase_idR3970tUM_1.png" alt="coinbase logo">
+            <img class="partner-logo" src="./assets/Microsoft.png" alt="microsoft logo">
+            <img class="partner-logo" src="./assets/perplexity-logo.png" alt="perplexity logo">
+            <img class="partner-logo" src="./assets/hub-spot.png" alt="hubspot logo">
+            <img class="partner-logo" src="./assets/x.com.png" alt="X logo">
             <img class="partner-logo" src="./assets/PayPal-Logo.png" alt="paypal logo">
-            <img class="partner-logo" src="./assets/PayPal-Logo.png" alt="paypal logo">
-            <img class="partner-logo" src="./assets/PayPal-Logo.png" alt="paypal logo">
-            <img class="partner-logo" src="./assets/PayPal-Logo.png" alt="paypal logo">
-            <img class="partner-logo" src="./assets/PayPal-Logo.png" alt="paypal logo">
-            <img class="partner-logo" src="./assets/PayPal-Logo.png" alt="paypal logo">
-            <img class="partner-logo" src="./assets/PayPal-Logo.png" alt="paypal logo">
-            <img class="partner-logo" src="./assets/PayPal-Logo.png" alt="paypal logo">
+            <img class="partner-logo" src="./assets/lovable.png" alt="lovable logo">
         </section>
 
         <section class="features-intro">
@@ -78,8 +80,8 @@
 
             <div class="features-intro-cards">
                 <div class="feature-card">
+                    <p class="green-accent-text">LLMs.txt & MCP</p>
                     <h3>Built for both people and AI</h3>
-                    <p>LLMs.txt & MCP</p>
                     <p>Ensure your product shows up in the
                         AI workflows users already rely on.
                         We support llms.txt, MCP, and whatever comes next.
@@ -90,11 +92,10 @@
                 </div>
 
                 <div class="feature-card">
-                    <h3>Built for both people and AI</h3>
-                    <p>LLMs.txt & MCP</p>
-                    <p>Ensure your product shows up in the
-                        AI workflows users already rely on.
-                        We support llms.txt, MCP, and whatever comes next.
+                    <p class="green-accent-text">AGENT</p>
+                    <h3>Self-updating knowledge management</h3>
+                    <p>Draft, edit, and maintain content with a context-aware agent.
+                         Move faster and more consistently without the documentation debt.
                     </p>
                     <div class="feature-image-container">
                         <img src="./assets/feature-card2.png" alt="">
@@ -102,11 +103,10 @@
                 </div>
 
                 <div class="feature-card">
-                    <h3>Built for both people and AI</h3>
-                    <p>LLMs.txt & MCP</p>
-                    <p>Ensure your product shows up in the
-                        AI workflows users already rely on.
-                        We support llms.txt, MCP, and whatever comes next.
+                    <p class="green-accent-text">ASSISTANT</p>
+                    <h3>Intelligent assistance for your users</h3>
+                    <p>Turn every documentation visit into a guided conversation.
+                        Your AI assistant understands context and delivers what users need.
                     </p>
                     <div class="feature-image-container">
                         <img src="./assets/feature-card3.png" alt="">
@@ -128,7 +128,7 @@
             <div class="features-grid">
                 <article class="feature-item">
                     <div class="icon-container">
-                        <img src="icon-partnership.svg" alt="logo" aria-hidden="true">
+                        <img src="./assets/icon3.png" alt="logo" aria-hidden="true">
                     </div>
                     <h3>Build with partnership</h3>
                     <p>
@@ -140,7 +140,7 @@
 
                 <article class="feature-item">
                     <div class="icon-container">
-                        <img src="icon-shield.svg" alt="logo" aria-hidden="true">
+                        <img src="./assets/icon4.png" alt="logo" aria-hidden="true">
                     </div>
                     <h3>Compliance and access control</h3>
                     <p>
@@ -156,11 +156,11 @@
             </div>
 
             <div class="client-logos">
-                <img class="partner-logo" src="./assets/PayPal-Logo.png" alt="paypal logo">
-                <img class="partner-logo" src="./assets/PayPal-Logo.png" alt="paypal logo">
-                <img class="partner-logo" src="./assets/PayPal-Logo.png" alt="paypal logo">
-                <img class="partner-logo" src="./assets/PayPal-Logo.png" alt="paypal logo">
-                <img class="partner-logo" src="./assets/PayPal-Logo.png" alt="paypal logo">
+                <img class="partner-logo" src="./assets/anthropic.png" alt="Anthrropic logo">
+                <img class="partner-logo" src="./assets/coin.png" alt="coinbase logo">
+                <img class="partner-logo" src="./assets/hub.png" alt="hubspot logo">
+                <img class="partner-logo" src="./assets//zap.png" alt="zapier logo">
+                <img class="partner-logo" src="./assets/AT&T.png" alt="at&t logo">
             </div>
         </section>
 
@@ -174,44 +174,36 @@
             </div>
             <div class="clients-carousel">
                 <div class="client-container">
-                    <img src="./assets/perplexity.png" alt="perplexity logo in front of the image">
+                    <img src="./assets/perplexity.webp" alt="perplexity logo in front of the image">
                     <p>How Perplexity transformed its documentation
                         into an AI-native developer experience that matches the</p>
                     <a href="#">Read story ></a>
                 </div>
 
                 <div class="client-container">
-                    <img src="./assets/perplexity.png" alt="perplexity logo in front of the image">
-                    <p>How Perplexity transformed its documentation
-                        into an AI-native developer experience that matches the</p>
+                    <img src="./assets/x.webp" alt="x logo in front of the image">
+                    <p>How X is using Mintlify to power the developer
+                       experience for the global town square</p>
                     <a href="#">Read story ></a>
                 </div>
 
                 <div class="client-container">
-                    <img src="./assets/perplexity.png" alt="perplexity logo in front of the image">
-                    <p>How Perplexity transformed its documentation
-                        into an AI-native developer experience that matches the</p>
+                    <img src="./assets/kalshi.webp" alt="kalshi logo">
+                    <p>How Kalshi helps developers discover what's possible 
+                        faster and ultimately drive broader adoption of its prediction markets.
+                    </p>
                     <a href="#">Read story ></a>
                 </div>
 
                 <div class="client-container">
-                    <img src="./assets/perplexity.png" alt="perplexity logo in front of the image">
-                    <p>How Perplexity transformed its documentation
-                        into an AI-native developer experience that matches the</p>
+                    <img src="./assets/cognition.webp" alt="Cognition logo">
+                    <p>How Cognition scaled their documentation to mirror their product ethos</p>
                     <a href="#">Read story ></a>
                 </div>
 
                 <div class="client-container">
-                    <img src="./assets/perplexity.png" alt="perplexity logo in front of the image">
-                    <p>How Perplexity transformed its documentation
-                        into an AI-native developer experience that matches the</p>
-                    <a href="#">Read story ></a>
-                </div>
-
-                <div class="client-container">
-                    <img src="./assets/perplexity.png" alt="perplexity logo in front of the image">
-                    <p>How Perplexity transformed its documentation
-                        into an AI-native developer experience that matches the</p>
+                    <img src="./assets/togetherai.webp" alt="togetherai logo">
+                    <p>How Together AI scaled their documentation into a developer experience that mirrors their own ethos</p>
                     <a href="#">Read story ></a>
                 </div>
             </div>
@@ -251,14 +243,15 @@
     <footer>
         <div class="footer-container">
             <div class="footer-top">
-                <a href="/" class="footer-logo" aria-label="Go to Homepage">
-                    <img src="mintlify-logo.svg" alt="Mintlify">
-                </a>
-
+                <div>
+                    <img src="https://www.mintlify.com/favicon.ico?favicon.d9fa433b.ico" alt="Mintlify" class="minitlify-logo">
+                    <span class="company-name">mintlify</span>
+                </div>
+                
                 <div class="social-links">
-                    <a href="#"><img src="icon-linkedin.svg" alt="linkedIn"></a>
-                    <a href="#"><img src="icon-x.svg" alt="X"></a>
-                    <a href="#"><img src="icon-github.svg" alt="github"></a>
+                    <a href=""><i class="fa-brands fa-square-linkedin fa-xl "></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter fa-xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-github fa-xl"></i></a>
                 </div>
             </div>
 
@@ -334,13 +327,13 @@
 
             <div class="theme-toggle">
                 <button>
-                    <img src="icon-monitor.svg" alt="a">
+                    <i class="fa-solid fa-display"></i>
                 </button>
                 <button>
-                    <img src="icon-sun.svg" alt="b">
+                    <i class="fa-regular fa-sun"></i>
                 </button>
                 <button>
-                    <img src="icon-moon.svg" alt="c">
+                    <i class="fa-solid fa-moon"></i>
                 </button>
             </div>
         </div>
